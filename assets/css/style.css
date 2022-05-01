@@ -1,0 +1,623 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: impact, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', tahoma, 'arial narrow', sans-serif;
+}
+
+:root {
+    --gris: rgb(63, 63, 63);
+    --morado: rgb(33, 140, 0);
+}
+
+header {
+    background-color: var(--gris);
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    background-color: var(--morado);
+    color: var(--gris);
+    text-align: right;
+    flex: 0 0 30%;
+    font-size: 40px;
+    padding: 0.2em;
+}
+
+#all-links {
+    flex: 0 0 40%;
+    text-align: right;
+    margin: 0% 5%;
+}
+
+#all-links li {
+    color: var(--morado);
+    display: inline-block;
+    font-size: 23px;
+    margin: 0.5em 0.5em;
+    padding: 0em 0.5em;
+    border-bottom: solid 5px var(--morado)
+}
+
+.section-links:visited, .section-links:focus, .section-links:link {
+    color: var(--morado);
+    text-decoration: none;
+}
+
+#tittle {
+    width: 100vw;
+    height: 240px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#tittle h2 {
+    background-color: var(--morado);
+    color: var(--gris);
+    text-align: center;
+    flex: 0 0 22%;
+    font-size: 30px;
+    margin: 1.5% 5%;
+    padding: 0.2em;
+}
+
+#info {
+    background-color: white;
+    width: 100vw;
+    height: 240px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 3% 0%;
+}
+
+#info h1 {
+    background-color: white;
+    color: var(--gris);
+    flex: 0 0 30%;
+    width: 28%;
+    border-right: solid 4px var(--gris);
+    text-align: right;
+    font-size: 40px;
+    padding: 0.5%;
+}
+
+#info p {
+    background-color: white;
+    color: var(--gris);
+    flex: 0 0 64%;
+    width: 60%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0.25% 0.5%;
+    margin: 0% 5% 0% 0%;
+}
+
+#work {
+    background-color: white;
+    width: 100vw;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 3% 0%;
+}
+
+#work h1 {
+    background-color: white;
+    color: var(--gris);
+    flex: 0 0 30%;
+    width: 28%;
+    border-right: solid 4px var(--gris);
+    text-align: right;
+    font-size: 40px;
+    padding: 0.5%;
+}
+
+#application {
+    background-color: white;
+    flex: 0 0 64%;
+    width: 60%;
+    padding: 0.25% 0.5%;
+    margin: 0% 5% 0% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#horiseon {
+    background-position: cover;
+    background-size: cover;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--morado);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    order: 3;
+    position: relative;
+}
+
+#advcss {
+    background-position: center;
+    background-size: cover;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--morado);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    order: 5;
+    position: relative;
+}
+
+#gitprofile {
+    background-position: cover;
+    background-size: cover;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--morado);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    order: 4;
+    position: relative;
+}
+
+#landing-page {
+    background-position: right;
+    background-size: 80%;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--morado);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    order: 2;
+    position: relative;
+}
+
+#PasswordGenerator {
+    background-position: right;
+    background-size: 80%;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--morado);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    order: 2;
+    position: relative;
+}
+
+#CodeQuiz {
+    background-position: right;
+    background-size: 80%;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--morado);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    order: 2;
+    position: relative;
+
+    
+}
+
+#WeatherDashboard {
+    background-position: right;
+    background-size: 80%;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--morado);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    order: 2;
+    position: relative;
+
+    
+}
+
+#DayPlanner {
+    background-position: right;
+    background-size: 80%;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--morado);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    order: 2;
+    position: relative;
+
+    
+}
+
+
+#SafeTripPlanner {
+    background-position: right;
+    background-size: 80%;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--morado);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    order: 2;
+    position: relative;
+
+    
+}
+
+
+
+
+#principal-app {
+    background-color: var(--morado);
+    color: var(--gris);
+    width: 20%;
+    padding: 0.5%;
+    margin: 0% 0% 3% 0%;
+    z-index: 100;
+}
+
+.apps {
+    background-color: var(--morado);
+    color: var(--gris);
+    width: 42%;
+    padding: 1%;
+    margin: 0% 0% 6%;
+    z-index: 100;
+}
+
+#principal-app h3, .apps h3 {
+    font-size: 25px;    
+}
+
+
+.flex-items::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.8;
+    z-index: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.flex-items:hover::after {
+    opacity: 0.0;
+}
+
+.flex-items:hover {
+    cursor: pointer;
+}
+
+.flex-items:visited, .flex-items:focus, .flex-items:link {
+    color: var(--grisoscuro);
+    text-decoration: none;
+}
+
+#contact-information {
+    background-color: white;
+    color: var(--griso);
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 3% 0%;
+}
+
+#contact-information h1 {
+    background-color: white;
+    color: var(--gris);
+    flex: 0 0 30%;
+    width: 27%;
+    border-right: solid 4px var(--gris);
+    text-align: right;
+    font-size: 40px;
+    padding: 0.5%;
+}
+
+#footer-links {
+    background-color: white;
+    flex: 0 0 65%;
+    width: 65%;
+    margin: 0% 5% 0% 0%;
+    text-align: center;
+    align-self: center;
+}
+
+#footer-links li {
+    color: var(--gris);
+    display: inline-block;
+    font-size: 23px;
+    margin: 0em 0.5em 0.5em 0.5em;
+    padding: 0em 0.5em;
+    border-bottom: solid 5px var(--gris);
+}
+
+.links:visited, .links:focus, .links:link {
+    color: var(--gris);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px){
+
+    header #main-links {
+        flex: 0 0 60%
+    }
+    
+    #tittle {
+        height: 120px;
+    }
+    
+    #tittle h2 {
+        flex-basis: 30%;
+    }
+
+    #info {
+        height: 384px;
+    }
+
+    #work {
+        height: 480px;
+    }
+
+    #horiseon, #advcss, #gitprofile, #landing-page {
+        flex: 0 0 47%;
+    }
+
+    #principal-app {
+        width: 31%;
+    }
+    
+    .apps {
+        width: 66%;
+    }
+
+    #footer-links {
+        flex: 0 0 65%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    header #main-links {
+        flex: 0 0 50%
+    }
+    
+    #tittle {
+        height: 160px;
+    }
+    
+    #tittle h2 {
+        flex-basis: 40%;
+    }
+
+    #info {
+        height: 350px;
+    }
+
+    #work {
+        height: 480px;
+    }
+
+    #horiseon, #advcss, #gitprofile, #landing-page {
+        flex: 0 0 47%;
+    }
+
+    #principal-app {
+        width: 31%;
+    }
+    
+    .apps {
+        width: 66%;
+    }
+
+    #footer-links {
+        flex: 0 0 65%;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+
+    header, #tittle, #info, #work, #application, #contact-information, .flex-items {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    header {
+        height: 165px;
+    }
+
+    header h1, header #main-links {
+        width: 100%;
+        text-align: center;
+        padding: 0%;
+        margin: 0%;
+        flex: 0 0 0%;
+    }
+
+    #tittle {
+        height: 200px;
+        margin-bottom: 5%;
+    }
+
+    #tittle h2 {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        flex: 0 0 0%;
+    }
+
+    #info {
+        height: 475px;
+        margin-bottom: 5%;
+    }
+
+    #info h1, #work h1, #contact-information h1 {
+        width: 100%;
+        flex: 0 0 0%;
+        text-align: center;
+        border-right: none;
+        border-bottom: solid 4px var(--gris);
+        padding: 0%;
+        margin-bottom: 2%;
+    }
+
+    #info h1 br, #contact-information h1 br {
+        display: none;
+    }
+
+    #info p {
+        flex: 0 0 0%;
+        width: 95%;
+        margin:0%;
+        padding: 2.5%;
+    }
+
+    #work {
+        height: 960px;
+        margin-bottom: 5%;
+    }
+
+    #application {
+        width: 100%;
+        flex: 0 0 0%;
+        margin-right: 0%;
+        padding: 0%;
+        gap: 4%;
+    }
+
+    #horiseon, #advcss, #gitprofile, #landing-page {
+        width: 90%;
+        flex: 0 0 50%;
+        justify-content: flex-end;
+    }
+
+    #principal-app {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .apps {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #contact-information {
+        height: 320px;
+    }
+
+    #footer-links {
+        width: 100%;
+        flex: 0 0 0%;
+        margin: 0%;
+    }
+    
+    #footer-links li {
+        display: block;
+        border: none;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+
+    header {
+        height: 200px;
+    }
+
+    #tittle {
+        height: 200px;
+    }
+
+    #info {
+        height: 656px;
+    }
+
+    #work {
+        height: 1056px;
+    }
+
+    #contact-information {
+        height: 360px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    header {
+        height: 240px;
+    }
+
+    #tittle {
+        height: 200px;
+    }
+
+    #info {
+        height: 840px;
+    }
+
+    #work {
+        height: 1184px;
+    }
+
+    #contact-information {
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 414px){
+
+    header {
+        height: 184px;
+    }
+
+    #tittle {
+        height: 200px;
+    }
+
+    #info {
+        height: 528px;
+    }
+
+    #work {
+        height: 984px;
+    }
+
+    #contact-information {
+        height: 320px;
+    }
+
+}
+
+
+
