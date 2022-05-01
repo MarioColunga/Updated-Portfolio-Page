@@ -1,12 +1,9 @@
  
  # 02 Advanced CSS: Portfolio
 
-This is my portfolio, it contains my first programming projects, basic information about me, like my goal and my work experience. Besides, it contains my contact information and links to access my linkdin and github profiles.  
+This is my portfolio, it contains my programming projects, basic information about me, like my goal and my work experience. Besides, it contains my contact information and links to access my linkdin and github profiles.  
 
  
- app link: 
- https://mariocolunga.github.io/Advanced-CSS-Portfolio/
+Link to deploy app: https://mariocolunga.github.io/Updated-Portfolio-Page/
 
-
- repository link: 
- https://github.com/MarioColunga/Advanced-CSS-Portfolio.git
+Link to access the repository: https://github.com/MarioColunga/Updated-Portfolio-Page.git
